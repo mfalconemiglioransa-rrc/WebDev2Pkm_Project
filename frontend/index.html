@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/pokemon-logo.png" alt="Pokémon Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://localhost/wd2/pokemon-cms/backend/update_pokemon.php">Update Pokémon</a></li>
+                <li><a href="http://localhost/wd2/pokemon-cms/backend/register.php">Register</a></li>
+                <li><a href="http://localhost/wd2/pokemon-cms/backend/login.php">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Welcome to the Pokémon Database</h1>
+            <p>Explore and update your Pokémon collection!</p>
+            
+            <!-- Pokemon Information Table or Content will be here -->
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Base Health</th>
+                    <th>Base Attack</th>
+                    <th>Base Defense</th>
+                </tr>
+                <!-- Loop and display Pokemon records dynamically here -->
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Created with ❤️ by Matheus Miglioransa</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
